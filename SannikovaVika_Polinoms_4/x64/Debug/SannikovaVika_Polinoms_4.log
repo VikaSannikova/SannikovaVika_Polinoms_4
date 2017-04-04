@@ -1,0 +1,7 @@
+﻿  Monom.cpp
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(46): error C3867: "monom::GetCoefficient": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(48): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(55): error C3867: "monom::GetCoefficient": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(55): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(79): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(92): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
