@@ -11,6 +11,7 @@ public:
 	Polinom(const Polinom &x);
 	~Polinom();
 	void AddElement(monom x);
+	void AddElementToTail(monom x);
 	int GetLength() const;
 	void Simplify(); //упростить
 	monom& operator[](int pos);

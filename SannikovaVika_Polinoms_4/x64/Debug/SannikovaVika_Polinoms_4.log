@@ -1,7 +1,2 @@
-﻿  Monom.cpp
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(46): error C3867: "monom::GetCoefficient": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(48): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(55): error C3867: "monom::GetCoefficient": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(55): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(79): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-c:\users\виктория\documents\visual studio 2015\projects\sannikovavika_polinoms_4\sannikovavika_polinoms_4\monom.cpp(92): error C3867: "monom::GetDegree": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Виктория\Documents\Visual Studio 2015\Projects\SannikovaVika_Polinoms_4\x64\Debug\SannikovaVika_Polinoms_4.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

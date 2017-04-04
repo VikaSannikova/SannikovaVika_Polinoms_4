@@ -21,7 +21,7 @@ public:
 	{
 		return var;
 	}
-	Node<Type> GetNext()
+	Node<Type> *GetNext()
 	{
 		return next;
 	}
@@ -148,12 +148,12 @@ public:
 		}
 		previous->SetNext(tmp);
 		tmp->SetNext(current);
-		lenght++;
+		length++;
 	}
 	void DeleteFirst()
 	{
 		if (length == 0) return;
-		if (length == 1) { head = tail = NULL };
+		if (length == 1) { head = tail = NULL; }
 		Node<Type>*tmp = head;
 		head = tmp->GetNext();
 		fhead->SetNext(head);
@@ -178,7 +178,7 @@ public:
 		}
 		while (current != NULL)
 		{
-			if (corrent == node)
+			if (current == node)
 			{
 				previous->SetNext(current->GetNext());
 				delete current;

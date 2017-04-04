@@ -147,6 +147,7 @@
     <ClInclude Include="Polinom.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Monom.cpp" />
     <ClCompile Include="Polinom.cpp" />
   </ItemGroup>

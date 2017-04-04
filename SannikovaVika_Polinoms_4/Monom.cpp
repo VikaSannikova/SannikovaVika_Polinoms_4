@@ -43,16 +43,16 @@ monom& monom::operator=(const monom& right)
 
 bool operator==(const monom& left, const monom& right)
 {
-	if (left.GetCoefficient != right.GetCoefficient)
+	if (left.GetCoefficient ()!= right.GetCoefficient())
 		return false;
-	if (left.GetDegree != right.GetDegree)
+	if (left.GetDegree ()!= right.GetDegree())
 		return false;
 	return true;
 }
 
 bool operator!=(const monom& left, const monom& right)
 {
-	if ((left.GetCoefficient == right.GetCoefficient) && (left.GetDegree == right.GetDegree))
+	if ((left.GetCoefficient() == right.GetCoefficient()) && (left.GetDegree() == right.GetDegree()))
 		return false;
 	return true;
 	// return !(left==right);
@@ -76,7 +76,7 @@ bool operator>(const monom& left, const monom& right)
 
 monom operator+(const monom& left, const monom& right)
 {
-	if (left.GetDegree == right.GetDegree)
+	if (left.GetDegree() == right.GetDegree())
 	{
 		monom result(left.GetCoefficient() + right.GetCoefficient(), left.GetDegree());
 		return result;
@@ -89,7 +89,7 @@ monom operator+(const monom& left, const monom& right)
 
 monom operator-(const monom& left, const monom& right)
 {
-	if (left.GetDegree == right.GetDegree)
+	if (left.GetDegree() == right.GetDegree())
 	{
 		monom result(left.GetCoefficient() - right.GetCoefficient(), left.GetDegree());
 		return result;
